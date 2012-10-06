@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Бесеница</string>
+    <string name="title_activity_main">Бесеница</string>
+    <string name="noMoreCheats">Повече нямате право на измама!</string>
+    <string name="menu_help">Помощ</string>
+    <string name="menu_new_game">Нова игра</string>
+    <string name="menu_cheat">Измама</string>
+    <string name="menu_settings">Настройки</string>
+
+</resources>

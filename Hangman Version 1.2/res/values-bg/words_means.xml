@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="words_means">
+        <item >Малко домашно животно. Известо е с лов на мишки.</item>
+        <item >Питомно животно, свързвано с вълци.</item>
+        <item >Човек, който напада и ограбва кораби в морето.</item>
+        <item >Тяло, съвкупност на водни капки и прах.</item>
+    </string-array>
+
+</resources>

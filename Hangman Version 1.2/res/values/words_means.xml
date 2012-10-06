@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="words_means">
+        <item >A small mammal domesticated since early times as a catcher of rats and mice.</item>
+        <item >A domesticated mammal related to the foxes and wolves and raised in a wide variety of breeds.</item>
+        <item >Person who attack and rob (a ship at sea).</item>
+        <item >A visible body of very fine water droplets or ice particles.</item>
+    </string-array>
+
+</resources>

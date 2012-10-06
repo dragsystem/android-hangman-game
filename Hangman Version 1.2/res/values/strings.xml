@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Hangman</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Hangman</string>
+    <string name="guess">Guess</string>
+    <string name="gameDifficulty">Choose game difficulty.</string>
+    <string name="noMoreCheats">You are out of cheats!</string>
+    <string name="menu_help">Help</string>
+    <string name= "menu_new_game">New Game</string>
+    <string name="menu_cheat">Cheat</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>

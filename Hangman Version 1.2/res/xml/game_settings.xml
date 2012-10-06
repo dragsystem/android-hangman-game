@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settingsGameSounds"
+        android:summary="Turn on/off in game sounds"
+        android:title="Game Sounds" />
+
+    <ListPreference
+        android:entries="@array/gameDifficulty"
+        android:entryValues="@array/gameDifficulty"
+        android:key="settingsGameDifficulty"
+        android:summary="Choose game difficulty"
+        android:title="Game Difficulty" />
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item >котка</item>
+        <item >куче</item>
+        <item >пират</item>
+        <item >облак</item>
+    </string-array>
+</resources>
