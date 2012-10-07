@@ -48,8 +48,8 @@ public class MyCustomDialog extends Activity {
 		} else if (isEndOfGame) {
 			Bundle data = getIntent().getExtras();
 			String endOfGameMessage = (String) data.get("endOfGame");
-
-			if (endOfGameMessage.equals(GameConstants.MESSAGE_LOSE)) {
+			String messageLose = getResources().getString(R.string.game_hanged);
+			if (endOfGameMessage.equals(messageLose)) {
 				this.mediaPlayer = MediaPlayer.create(this, R.raw.losing);
 			} else {
 				this.mediaPlayer = MediaPlayer.create(this, R.raw.winning);

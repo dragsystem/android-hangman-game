@@ -6,6 +6,8 @@
     <string name="guess">Guess</string>
     <string name="gameDifficulty">Choose game difficulty.</string>
     <string name="noMoreCheats">You are out of cheats!</string>
+    <string name="game_hanged">Sorry you\'ve been hanged!</string>
+    <string name="game_win">Congratulations you guessed the word.</string>
     <string name="menu_help">Help</string>
     <string name= "menu_new_game">New Game</string>
     <string name="menu_cheat">Cheat</string>

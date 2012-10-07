@@ -111,7 +111,8 @@ public class Main extends Activity implements OnEditorActionListener {
 
 				if (isRevealed) {
 					if (this.myWord.isWordGuessed()) {
-						setAndStartEndOfGameIntent(GameConstants.MESSAGE_WIN);
+						String messageWin = getResources().getString(R.string.game_win);
+						setAndStartEndOfGameIntent(messageWin);
 					}
 					// The user revealed a letter(s)
 					// Edit Text View stays active
@@ -122,7 +123,8 @@ public class Main extends Activity implements OnEditorActionListener {
 
 					boolean isPlayerLosing = this.derrickStatus.isPlayerLosing();
 					if (isPlayerLosing) {
-						setAndStartEndOfGameIntent(GameConstants.MESSAGE_LOSE);
+						String messageLose = getResources().getString(R.string.game_hanged);
+						setAndStartEndOfGameIntent(messageLose);
 					} else {
 						if (this.engine.getSoundsState()) {
 							this.mediaPlayerWrongLetter.start();
@@ -183,7 +185,8 @@ public class Main extends Activity implements OnEditorActionListener {
 			if (isCheated) {
 				updateTvDisplay(this.myWord.getGuessedLettersFormated());
 				if (this.myWord.isWordGuessed()) {
-					setAndStartEndOfGameIntent(GameConstants.MESSAGE_WIN);
+					String messageWin = getResources().getString(R.string.game_win);
+					setAndStartEndOfGameIntent(messageWin);
 				}
 			} else {
 				intent = new Intent(Main.this, MyCustomDialog.class);
