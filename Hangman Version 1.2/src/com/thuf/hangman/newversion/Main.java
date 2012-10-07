@@ -61,9 +61,6 @@ public class Main extends Activity implements OnEditorActionListener {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		int test = 151;
-		test += 30;
 		incialize();
 		updateTvDisplay(this.myWord.getGuessedLettersFormated());
 		this.etUserInput.setOnEditorActionListener(this);
